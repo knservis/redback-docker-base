@@ -29,5 +29,5 @@ One easy way to do it is to create a new Docker file which will contain:
     FROM knservis/redback-base:1.0.0
     WORKDIR /app/redback
     COPY ./redback.properties /app/redback
-    CMD java -Daws.accessKeyId=<access-key> -Daws.secretKey=<secret-key> -jar target/red-back-1.0.0-jar-with-dependencies.jar -config redback.properties
+    CMD java -Daws.accessKeyId=<access-key> -Daws.secretKey=<secret-key> -jar release/red-back-1.0.0-jar-with-dependencies.jar -config redback.properties
 
