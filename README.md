@@ -24,7 +24,7 @@ To run redback you somehow have to provide a configuration file similar to the o
 
     /app/redback/ABCRedback/target/classes/redback.properties.sample
 
-One easy way to do it is to create a new Docker file which will contain:
+One easy way to run it is to create a new Docker file which will contain:
 
     FROM knservis/redback-base:1.0.0
     WORKDIR /app/redback
